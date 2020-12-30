@@ -3,7 +3,7 @@ const Engine = Matter.Engine;
 const World = Matter.World;
 const Bodies = Matter.Bodies;
 const Body = Matter.Body;
-
+var score=0;
 function preload()
 {
 	
@@ -61,32 +61,60 @@ ground.display();
 ground2.display();
 ground3.display();
 box.display();
+box.score()
 box1.display();
+box1.score()
 box2.display();
+box2.score()
 box3.display();
+box3.score()
 box4.display();
+box4.score()
 box5.display()
+box5.score()
 box6.display()
+box6.score()
 box7.display()
+box7.score()
 box8.display()
+box8.score()
 box9.display()
+box9.score()
 box10.display()
+box10.score()
 box11.display()
+box11.score()
 box12.display()
+box12.score()
 box13.display()
+box13.score()
 box14.display()
+box14.score()
 box15.display()
+box15.score()
 box16.display()
+box16.score()
 box17.display()
+box17.score()
 box18.display()
+box18.score()
 box19.display()
+box19.score()
 box20.display()
+box20.score()
 box21.display()
+box21.score()
 box22.display()
+box22.score()
 box23.display()
+box23.score()
 box24.display()
+box24.score()
 hexagon.display();
 slingshot.display();
+textSize(20)
+fill ("black")
+text ("SCORE:"+ score ,650,40);
 
  
  drawSprites();

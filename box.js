@@ -31,4 +31,9 @@ display(){
     this.visibility=this.visibility-5
   }
 }
+score(){
+  if(this.visibility<0&&this.visibility>-105){
+    score++
+  }
+}
 }
